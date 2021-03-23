@@ -1,4 +1,4 @@
-<img align="left" width="60" height="60" src="media/logo.png" alt="Quantum Untangled logo icon">
+<img align="left" width="35" height="35" src="media/logo.png" alt="Quantum Untangled logo icon">
 
 # Quantum Untangled
 This project aims to make quantum computing accessible to people of all ages. We want to bring the basics of quantum mechanics and quantum computing to a wider public. We intend to do this through a website that will work as a hub for all-things quantum, from articles to interviews and open-source projects.
