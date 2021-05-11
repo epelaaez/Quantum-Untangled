@@ -8,6 +8,8 @@ tags:   [quantum mechanics,physics]
 
 # One Atom, Multiple Faces: Superposition, Localisation, and Uncertainty
 
+<center><img src="https://miro.medium.com/max/1600/1*mD6oQpCBlaGLZkO8rp5MWg.jpeg" align="center"><figcaption>Image: © Phys.org</figcaption></center><br><br>
+
 In this article, we deal with one of the most fundamental quantum properties, superposition, uncertainty, and localization, and that too without the introduction of cats (sorry Schrödinger!) or dogs. Though this article requires the reader to know some basic facts regarding the quantum world beforehand (the most extensive one being wave-particle duality), the overall gist of this article should not be much hard to grasp and understand once the reader has drawn upon the basic facts, and digested the fact that wave-particle duality is a fundamental property of nature. 
 
 First, let’s just see what superposition is. Superposition is defined on [Wikipedia](https://en.wikipedia.org/wiki/Quantum_superposition) as:
@@ -24,7 +26,7 @@ Makes sense? No? Then, let’s boil it down to a handful of words rather than se
 
 Now, we come onto the real prospect of this article- intuition. So, let’s define a two-dimensional grid (*see figure*) on which we’d base our knowledge of waves and particles. Let’s also add markings of some small arbitrary units onto this grid (considering the relative size of the unit is equivalent to the quantum scale). Let’s now add a quantum object onto this grid. Now, wave-particle duality necessitates that we highlight *both* - the wave, as well as, the particle aspect of the object.
 
-<center><img src="https://miro.medium.com/max/1042/0*uOMYv4ea7tL6pTOL.png"><figcaption>A quantum object as described on the cartesian plane. Note that the wave and the particle are not two different objects. Instead, they are two different interpretations of the same quantum object. Also, the wave drawn is not to scale and is quite an arbitrary one, which should not be looked into from the mathematical point of view, but just for the sake of understanding (diagram made using <a href="https://github.com/3b1b/manim">Manim</a>).</figcaption></center>
+<img align="center" src="https://miro.medium.com/max/1042/0*uOMYv4ea7tL6pTOL.png"><figcaption align=center>                                                                       A quantum object as described on the cartesian plane. Note that the wave and the particle are not two different objects. Instead, they are two different interpretations of the same quantum object. Also, the wave drawn is not to scale and is quite an arbitrary one, which should not be looked into from the mathematical point of view, but just for the sake of understanding (diagram made using <a href="https://github.com/3b1b/manim">Manim</a>).</figcaption>
 
 <br><br>
 Let me ask you a question now, where *exactly* is the particle? And as if immediately, you might answer, at (around) $(-2.5, 1)$, and you’d be right! *But*, at the same time, let me ask you where *exactly* is the wave? And you would answer… wait, turns out, you can’t answer! And that’s all right. You can’t accurately tell where is the wave located, can you?
