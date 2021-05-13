@@ -2,7 +2,6 @@
 layout: post
 title: "Matrices and Operations — Linear Algebra for QC"
 author: "Emilio Peláez"
-categories: education
 tags: [linear-algebra,mathematics]
 image: 1_ZjTGr4J8Xz-mfRbWWM9xxg.png
 ---

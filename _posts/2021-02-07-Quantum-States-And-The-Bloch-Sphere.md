@@ -2,7 +2,6 @@
 layout: post
 title: "Quantum States And The Bloch Sphere"
 author: "Pranav Viswanath"
-categories: education
 tags: [physics,mathematics]
 image: 1____XCD57DmhptRduyol2j31A.jpeg
 ---

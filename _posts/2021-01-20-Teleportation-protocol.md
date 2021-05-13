@@ -2,7 +2,6 @@
 layout: post
 title: "Teleportation protocol"
 author: "Emilio Peláez"
-categories: education
 tags: [protocol,circuit]
 image: 1_gf3ek1a3_xs7YYeWeJJL4A.jpeg"
 ---

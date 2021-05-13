@@ -82,13 +82,13 @@ figure figcaption {
   margin: 0px;
 }
 .related-posts {
-  padding: 10px 0px 10px;
+  width: 100%;
   list-style: none;
   display: inline-block;
 }
 .related-thumbnail {
   position: relative;
-  width: 600px;
+  width: 100%;
   height: 200px;
   overflow: hidden;
 }
@@ -97,7 +97,7 @@ figure figcaption {
   left: 50%;
   top: 50%;
   height: auto;
-  width: 600px;
+  width: 100%;
   -webkit-transform: translate(-50%,-50%);
       -ms-transform: translate(-50%,-50%);
           transform: translate(-50%,-50%);
@@ -105,21 +105,13 @@ figure figcaption {
 .related-title {
   text-align: right;
   font-family: $base-font-family;
+  padding-right: 1.5vw;
 }
 .related-meta {
   text-align: right;
   padding-bottom: .5rem;
+  padding-right: 1.5vw;
   font-family: $base-font-family;
   font-size: medium;
   font-weight: lighter;
-}
-@media (max-width: $container-width) {
-  .related-thumbnail{
-    width: 60vw;
-  }
-}
-@media (max-width: $tablet-width) {
-  .related-thumbnail{
-    width: 95vw;
-  }
 }

@@ -2,7 +2,6 @@
 layout: post
 title:  "Vectors and Scalars — Linear Algebra for QC"
 author: "Emilio Peláez"
-categories: education
 tags:   [linear-algebra,mathematics]
 image: 0__Nu4R65gKOG9DfK5P.png
 ---

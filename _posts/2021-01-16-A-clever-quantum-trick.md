@@ -2,7 +2,6 @@
 layout: post
 title: "A clever quantum trick"
 author: "Emilio Peláez"
-categories: education
 tags:   [protocol,circuit]
 image: 1_22PrHbfEgqc4df7SV83m5A.jpeg
 ---
