@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Why quantum systems are stairs and not ramps!"
+author: "Agrim Arsh"
+categories: education
+tags:   [quantum mechanics,physics]
+---
