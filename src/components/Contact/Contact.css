@@ -3,8 +3,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     text-align: justify;
 }
 
@@ -16,4 +16,10 @@
 .contact-content a:hover {
     color: rgb(189, 9, 9);
     text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .contact-content {
+        width: 95%;
+    }
 }

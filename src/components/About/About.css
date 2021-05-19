@@ -3,8 +3,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: justify;
 }
 
@@ -20,4 +20,10 @@
 
 .about-content img {
     width: 100%;
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        width: 95%;
+    }
 }
