@@ -10,9 +10,10 @@ We are students of The Coding School’s Qubit by Qubit: Introduction to Quantum
 
 ## Technologies
 The following technologies are being used to develop this website and should be installed prior to working on it:
-- [Python](https://www.python.org)
-- [Django](https://www.djangoproject.com)
-- [Wagtail CMS (Content Management System)](https://wagtail.io)
+- [npm](https://www.npmjs.com)
+- [React](https://reactjs.org)
+
+Once you have these installed, run `npm start` to run the website on you rlocal machine. 
 
 ## GitHub pages
 While the development of a full stack website is underway, a static website powered by GitHub pages will be available. The code for this website is also available in this repo under the `gh-pages` branch. In order to work on this branch on your local machine, run the following commands after you have cloned the repo from the `main` branch.

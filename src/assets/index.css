@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 500;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

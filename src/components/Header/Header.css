@@ -1,0 +1,21 @@
+.navbar {
+    background-color: rgb(31, 31, 31);
+}
+
+.navbar-brand {
+    margin-left: 10em;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        margin-left: 0em;
+    }
+}
+
+.navbar-brand img {
+    margin-right: 0.2em;
+}
+
+.nav-items-right {
+    margin-right: 10em;
+}
