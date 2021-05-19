@@ -1,0 +1,19 @@
+footer {
+    font-size: 0.9em;
+    color: rgba(255,255,255,.5);
+    background-color: rgb(31, 31, 31);
+}
+
+footer a:hover {
+    color: rgb(240, 6, 6);
+    text-decoration: none;
+}
+
+footer a {
+    color: rgb(189, 9, 9);
+    text-decoration: none;
+}
+
+.footer-bottom {
+    padding: 0.6em;
+}
