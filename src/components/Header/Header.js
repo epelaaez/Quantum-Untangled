@@ -17,15 +17,15 @@ function Header() {
                 alt="Quantum Untangled logo"
             />
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
+            <Navbar.Toggle aria-controls="navbar-nav" />
+            <Navbar.Collapse id="navbar-nav">
                 <Nav className="mr-auto">
                     <Nav.Link href="/blog">Blog</Nav.Link>
                     <Nav.Link href="/projects">Projects</Nav.Link>
                     <Nav.Link href="/about">About</Nav.Link>
                     <Nav.Link href="/contact">Contact</Nav.Link>
                 </Nav>
-                <Nav className="nav-items-right">
+                <Nav className="ml-auto nav-items-right">
                     <Nav.Link href="#user">Log in</Nav.Link>
                 </Nav>
             </Navbar.Collapse>

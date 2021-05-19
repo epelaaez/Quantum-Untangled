@@ -6,16 +6,20 @@
     margin-left: 10em;
 }
 
+.nav-items-right {
+    margin-right: 10em;
+}
+
 @media (max-width: 768px) {
     .navbar-brand {
         margin-left: 0em;
+    }
+
+    .nav-items-right {
+        margin-right: 0em;
     }
 }
 
 .navbar-brand img {
     margin-right: 0.2em;
-}
-
-.nav-items-right {
-    margin-right: 10em;
 }
