@@ -1,0 +1,16 @@
+.blog-content {
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .blog-content {
+        width: 95%;
+    }
+}
