@@ -1,0 +1,9 @@
+.privacy-content {
+    width: 60vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: justify;
+}

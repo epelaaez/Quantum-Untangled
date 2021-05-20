@@ -5,7 +5,7 @@ function Footer() {
     return (
         <footer>
             <div className="footer-bottom">
-                <a href="#privacy">Privacy Policy</a> • © 2021 Quantum Untangled
+                <a href="/privacy-policy">Privacy Policy</a> • © 2021 Quantum Untangled
             </div>
         </footer>
     );
