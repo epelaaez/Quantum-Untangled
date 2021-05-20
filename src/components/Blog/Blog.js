@@ -1,7 +1,7 @@
 import React from 'react';
 import './Blog.css';
 
-import PostCard from './PostCard/PostCard.js'
+import PostCard from './PostCard/PostCard.js';
 
 import cover from '../../assets/cover_1.png';
 import cover2 from '../../assets/cover_2.jpg';
