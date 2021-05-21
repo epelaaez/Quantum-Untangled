@@ -26,3 +26,17 @@
 .post-content strong {
     font-weight: bold;
 }
+
+.post-content img {
+    max-width: 100%;
+}
+
+.post-content img + em {
+    font-size: .85rem;
+    font-style: normal;
+    text-align: center;
+}
+
+.post-metadata {
+    opacity: 70%;
+}

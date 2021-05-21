@@ -1,8 +1,12 @@
-# Spin and Discreteness
+{"author": "Agrim Arsh", "title": "Spin and Discreteness", "date": "2021-03-15", "tags": ["mechanics", "physics"]}
+-----
 
 Perhaps the most confusing topic which beginners get stuck on, is spin. What one understands by spin obviously depends upon his/her size of reference and of course, his/her intuition! Considering the first fact, the word ‘spin’ generates a wildfire of ideas in the mind of a beginner. What a person would imagine at first when he hears about the word ‘spin’ would of course be none other than a top spinning about its axis, or, the Earth spinning about its axis, going about its ‘day’ly business! But contrary to the popular image, students are taught in high-school, quantum mechanical spin is not about rotational mechanics, as in classical systems, or is it?
 
 We’ll come to this later. First, let’s just see, what ‘spin’ really means in quantum mechanical systems. According to [Wikipedia](https://en.wikipedia.org/wiki/Spin_(physics)),
+
+![Alt text](cover_2.jpg)
+*Image caption*
 
 > **Spin** is an intrinsic form of angular momentum carried by elementary particles, composite particles (hadrons), and atomic nuclei.
 
