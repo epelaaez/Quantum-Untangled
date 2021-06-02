@@ -17,13 +17,13 @@ function Main() {
     return (
         <main>
             <Switch>
-                <Route exact path='/' component={Home}></Route>
-                <Route exact path='/blog' component={Blog}></Route>
-                <Route exact path='/projects' component={Projects}></Route>
-                <Route exact path='/about' component={About}></Route>
-                <Route exact path='/contact' component={Contact}></Route>
+                <Route exact path='/' component={Home} />
+                <Route path='/blog' component={Blog} />
+                <Route exact path='/projects' component={Projects} />
+                <Route exact path='/about' component={About} />
+                <Route exact path='/contact' component={Contact} />
 
-                <Route exact path='/privacy-policy' component={Privacy}></Route>
+                <Route exact path='/privacy-policy' component={Privacy} />
             </Switch>
         </main>
     );

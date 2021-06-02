@@ -3,21 +3,20 @@ import ReactMarkdown from 'react-markdown';
 import './Post.css';
 
 import file from '../../../assets/posts/2021-01-16-A-clever-quantum-trick.md';
+import { withRouter } from 'react-router';
 
 class Post extends React.Component {
     constructor (props) {
         super(props);
-        this.state = {
-            post: null,
-            author: null,
-            title: null,
-            date: null,
-            tags: null,
-        };
+        this.state = { file: file, };
     }
 
     componentDidMount() {
-        fetch(file).then((response) => response.text()).then((text) => {
+        this.setState({
+            id: this.props.match.params.id,
+        })
+        
+        fetch(this.state.file).then((response) => response.text()).then((text) => {
             const rawData = text.split('-----')
             const metaData = JSON.parse(rawData[0]);
             this.setState({
@@ -37,6 +36,7 @@ class Post extends React.Component {
     render() {
         return (
             <div>
+                <p>{this.state.id} </p>
                 <ReactMarkdown children={this.state.title}></ReactMarkdown>
                 <p className="post-metadata">By {this.state.author} on {this.state.date}</p>
                 <ReactMarkdown transformImageUri={this.getImgPath} children={this.state.post} className="post-content"></ReactMarkdown>
@@ -45,4 +45,4 @@ class Post extends React.Component {
     }
 }
 
-export default Post;
+export default withRouter(Post);

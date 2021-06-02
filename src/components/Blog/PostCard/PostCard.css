@@ -12,10 +12,6 @@
     height: 250px;  
 }
 
-.card-title {
-    color: rgb(240, 6, 6);
-}
-
 .post-card svg {
     display: inline-block;
     height: 1em;
@@ -26,4 +22,14 @@
 
 .card-text-author {
     margin-bottom: 0em;
+}
+
+.card-body a:hover {
+    color: rgb(189, 9, 9);
+    text-decoration: none;
+}
+
+.card-body a {
+    color: rgb(240, 6, 6);
+    text-decoration: none;
 }
