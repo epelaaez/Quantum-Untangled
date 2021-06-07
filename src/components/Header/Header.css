@@ -10,6 +10,10 @@
     margin-right: 10em;
 }
 
+.nav-link-active {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
 @media (max-width: 768px) {
     .navbar-brand {
         margin-left: 0em;

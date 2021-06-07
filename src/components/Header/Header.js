@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../../assets/logo.svg';
 import './Header.css';
 
+import { NavLink } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
@@ -20,13 +21,13 @@ function Header() {
             <Navbar.Toggle aria-controls="navbar-nav" />
             <Navbar.Collapse id="navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link href="/blog">Blog</Nav.Link>
-                    <Nav.Link href="/projects">Projects</Nav.Link>
-                    <Nav.Link href="/about">About</Nav.Link>
-                    <Nav.Link href="/contact">Contact</Nav.Link>
+                    <NavLink to="/blog" className="nav-link" activeClassName="nav-link-active">Blog</NavLink>
+                    <NavLink to="/projects" className="nav-link" activeClassName="nav-link-active">Projects</NavLink>
+                    <NavLink to="/about" className="nav-link" activeClassName="nav-link-active">About</NavLink>
+                    <NavLink to="/contact" className="nav-link" activeClassName="nav-link-active">Contact</NavLink>
                 </Nav>
                 <Nav className="ml-auto nav-items-right">
-                    <Nav.Link href="#user">Log in</Nav.Link>
+                    <NavLink to="/user" className="nav-link" activeClassName="nav-link-active">Log in</NavLink>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>   

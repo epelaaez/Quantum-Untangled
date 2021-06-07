@@ -3,8 +3,8 @@ import './Main.css';
  
 // Accesible from header navigation
 import Home from '../Home/Home.js';
-import Blog from '../Blog/Blog.js';
-import Projects from '../Projects/Projects.js';
+// import Blog from '../Blog/Blog.js';  Currently, blog is redirected to Medium's publication so there's no need to import the Blog component.
+import Projects from '../Projects/Projects.js'; 
 import About from '../About/About.js';
 import Contact from '../Contact/Contact.js';
 
@@ -18,7 +18,10 @@ function Main() {
         <main>
             <Switch>
                 <Route exact path='/' component={Home} />
-                <Route path='/blog' component={Blog} />
+                <Route path='/blog' component={() => { 
+                    window.location.href = 'https://medium.com/quantum-untangled'; 
+                    return null;
+                }} />
                 <Route exact path='/projects' component={Projects} />
                 <Route exact path='/about' component={About} />
                 <Route exact path='/contact' component={Contact} />
