@@ -1,3 +1,16 @@
 .App {
   text-align: center;
 }
+
+::-webkit-scrollbar {
+  width: 6px;
+	background-color: rgb(31, 31, 31);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(189, 9, 9);
+}
+
+::-webkit-scrollbar-track {
+	background-color: rgb(31, 31, 31);
+}
