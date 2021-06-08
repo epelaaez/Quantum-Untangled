@@ -4,7 +4,7 @@ import cover from '../../assets/cover_2.jpg'
 
 function Banner() {
     return (
-        <img src={cover} alt="Quantum Untangled cover" width="100%" className="banner-img"></img>
+        <img src={cover} alt="Quantum Untangled cover" width="100%"></img>
     );
 }
 
