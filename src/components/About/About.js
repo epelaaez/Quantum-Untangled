@@ -15,11 +15,12 @@ function About() {
 
             <p>
                 Anyone is welcome to colaborate with us, whether you are just a begginer or an expert on quantum computing. 
-                You can do so by joining our Discord server available in the <a href="/contact">Contact</a> section. Also, feel free to explore our GitHub <a href="https://github.com/epelaaez/Quantum-Untangled">repo</a>.
+                You can do so by joining our Discord server available in the <a href="/contact">Contact</a> section, or filling the form available on the same page. 
+                Also, feel free to explore our GitHub <a href="https://github.com/epelaaez/Quantum-Untangled">repo</a>.
             </p>
 
             <p>
-                We are currently in the process of transfering into our new website, for our complete collection of articles refer to our <a href="https://medium.com/quantum-untangled">Medium publication</a>.
+                Although we count with our own website, the complete collection of our articles will remain on our <a href="https://medium.com/quantum-untangled">Medium publication</a>.
             </p>
 
             <img alt="Quantum Untangled alternate cover" src={cover}></img>
