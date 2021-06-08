@@ -21,7 +21,7 @@ function Header() {
             <Navbar.Toggle aria-controls="navbar-nav" />
             <Navbar.Collapse id="navbar-nav">
                 <Nav className="mr-auto">
-                    <NavLink to="/blog" className="nav-link" activeClassName="nav-link-active">Blog</NavLink>
+                    <a href='https://medium.com/quantum-untangled' className="nav-link">Blog</a>
                     <NavLink to="/projects" className="nav-link" activeClassName="nav-link-active">Projects</NavLink>
                     <NavLink to="/about" className="nav-link" activeClassName="nav-link-active">About</NavLink>
                     <NavLink to="/contact" className="nav-link" activeClassName="nav-link-active">Contact</NavLink>
