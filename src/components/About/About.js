@@ -16,7 +16,7 @@ function About() {
             <p>
                 Anyone is welcome to colaborate with us, whether you are just a begginer or an expert on quantum computing. 
                 You can do so by joining our Discord server available in the <a href="/contact">Contact</a> section, or filling the form available on the same page. 
-                Also, feel free to explore our GitHub <a href="https://github.com/epelaaez/Quantum-Untangled">repo</a>.
+                Also, feel free to explore our GitHub <a href="https://github.com/epelaaez/Quantum-Untangled">repo</a> if you want to help in the development of this website.
             </p>
 
             <p>

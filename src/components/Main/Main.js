@@ -20,7 +20,7 @@ function Main() {
         <main>
             <Switch>
                 <Route exact path='/' component={Home} />
-z                <Route exact path='/about' component={About} />
+                <Route exact path='/about' component={About} />
                 <Route exact path='/contact' component={Contact} />
 
                 <Route exact path='/privacy-policy' component={Privacy} />
