@@ -15,14 +15,5 @@ The following technologies are being used to develop this website and should be 
 
 Once you have these installed and have cloned the repository, run `npm start` to run the website on you rlocal machine. 
 
-## GitHub pages
-The production build of the website is available in the `gh-pages` branch of this repository. To build and deploy the website into this branch, you need to run the following command. 
-
-```
-npm run deploy
-```
-
-This script is defined in the `package.json` file and will take care of the rest. 
-
 ## Contributing
 For details on contributing, read [this file](https://github.com/epelaaez/Quantum-Untangled/blob/main/CONTRIBUTING.md).
