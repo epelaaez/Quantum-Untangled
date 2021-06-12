@@ -30,7 +30,5 @@ package-lock.json
 /build
 
 /.firebase
-.firebaserc
-firebase.json
 
 npm-debug.log*
