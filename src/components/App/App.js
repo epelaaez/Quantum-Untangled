@@ -7,7 +7,7 @@ import Footer from '../Footer/Footer.js';
 
 class App extends React.Component {
   componentDidMount() {
-    if (window.location.hostname === "https://quantum-untangled-246b3.web.app" || window.location.hostname === "https://quantum-untangled-246b3.firebaseapp.com") {
+    if (window.location.hostname == "https://quantum-untangled-246b3.web.app" || window.location.hostname == "https://quantum-untangled-246b3.firebaseapp.com") {
         window.location.href = 'https://www.quantumuntangled.org'; 
     }
   }
